@@ -19,3 +19,32 @@ This dataset contains medical details of patients, including features such as gl
 
 ### Usage
 This dataset can be used for binary classification tasks to predict whether a patient has diabetes based on the given features.
+
+
+## Logistic Regression
+STATISTICAL THEORY 
+
+The simple linear regression model is appropriate for relating a quantitative response
+variable to a quantitative predictor x.
+
+Now consider 𝑦 as a categorical variable that takes two values, depending on the numerical variable 𝑥. Let $y$ take the vaalues $1$ and $0$ corresponding to $Success$ and $Failure$, respectievely.
+
+Define $p = P(Success) = P(1)$. Then the value of $p$  will depend on the value of some
+quantitative variable $x$. 
+
+In Logistic Regression we model some function of mean value of $y$ as a linear function of $\beta_0$ and $\beta_1$
+- DEFENITION Logit Function
+
+$$p(x) = \frac{ e^{\beta_0 + \beta_1 x}}{1 + e^{\beta_0 + \beta_1 x}}$$
+ 
+Logistic regression means assuming that $p(x)$ is related to x by the logit function.
+
+
+Straightforward algebra shows that
+
+$$ \frac{p(x)}{1-p(x)} = e^{\beta_0 + \beta_1 x}$$
+
+
+If we take $ln$ on both sides 
+
+$$ ln\{\frac{p(x)}{1-p(x)}\} = \beta_0 + \beta_1 x$$
