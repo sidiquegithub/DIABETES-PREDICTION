@@ -22,6 +22,7 @@ This dataset can be used for binary classification tasks to predict whether a pa
 
 I utilized logistic regression to classify individuals as having diabetes or not, achieving an accuracy of 75%.
 
+You can find the Python code in the link provided below
 https://github.com/sidiquegithub/DIABETES-PREDICTION/blob/main/CODE/Diabetes%20Classification.ipynb
 
 
