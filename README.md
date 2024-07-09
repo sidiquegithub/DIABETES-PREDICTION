@@ -20,6 +20,10 @@ This dataset contains medical details of patients, including features such as gl
 ### Usage
 This dataset can be used for binary classification tasks to predict whether a patient has diabetes based on the given features.
 
+I utilized logistic regression to classify individuals as having diabetes or not, achieving an accuracy of 75%.
+
+https://github.com/sidiquegithub/DIABETES-PREDICTION/blob/main/CODE/Diabetes%20Classification.ipynb
+
 
 ## Logistic Regression
 STATISTICAL THEORY 
